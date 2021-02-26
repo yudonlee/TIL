@@ -8,4 +8,4 @@
 ### Algorithm
 
 ### C++
-- [2021/02/26 / how to remove duplicates from a vector](https://github.com/yudonlee/TIL/blob/main/C%2B%2B/2021_02_26.md, "C++ STL")
+- [2021/02/26 / how to remove duplicates from a vector](https://github.com/yudonlee/TIL/blob/main/C++/2021_02_26.md, "C++ STL")
