@@ -18,3 +18,6 @@
 - [2021/07/26/ swift 기초](https://github.com/yudonlee/TIL/blob/main/Swift/2021_07_26.md "Basic for Swift")
 - [2021/07/27/ swift 기초2](https://github.com/yudonlee/TIL/blob/main/Swift/2021_07_27.md "Basic for Swift")
 - [2021/08/01/ swift 기초마무리](https://github.com/yudonlee/TIL/blob/main/Swift/2021_08_01.md "Basic for Swift")
+
+## iOS
+- [2021/08/02/ Music player app만들기 1일차](https://github.com/yudonlee/TIL/blob/main/iOS/2021_08_02.md "basic for iOS, make the music player app")
