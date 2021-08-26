@@ -20,4 +20,6 @@
 - [2021/08/02/ swift 기초마무리](https://github.com/yudonlee/TIL/blob/main/Swift/2021_08_02.md "Basic for Swift")
 
 ## iOS
-- [2021/08/02/ Music player app만들기 1일차](https://github.com/yudonlee/TIL/blob/main/iOS/2021_08_02.md "basic for iOS, make the music player app")
+- [2021/08/02/ xcode명령어, 프로젝 이미지 추가, ViewController와 StoryBoard, Action Method](https://github.com/yudonlee/TIL/blob/main/iOS/2021_08_02.md "basic for iOS, make the music player app")
+- [2021/08/03/ ~ 08/08/ AutoLayOut, Mark, framework종류, let keyword, MVC, 모달, 뷰의상태 감지 메서드](https://github.com/yudonlee/TIL/blob/main/iOS/2021_08_03%7E08.md "basic for iOS, make the music player app on ")
+- [2021/08/09/ Delegation, image 선택 모달만들기](https://github.com/yudonlee/TIL/blob/main/iOS/2021_08_09.md "basic for iOS, make the music player app on ")
