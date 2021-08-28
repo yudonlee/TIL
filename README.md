@@ -24,3 +24,5 @@
 - [2021/08/03/ ~ 08/08/ AutoLayOut, Mark, framework종류, let keyword, MVC, 모달, 뷰의상태 감지 메서드](https://github.com/yudonlee/TIL/blob/main/iOS/2021_08_03%7E08.md "basic for iOS, make the music player app on ")
 - [2021/08/09/ Delegation, image 선택 모달만들기](https://github.com/yudonlee/TIL/blob/main/iOS/2021_08_09.md "basic for iOS, make the music player app on ")
 - [2021/08/10/~ 08/11/ SingleTon Design pattern, Target-Action Design pattern, Gesture Recognizer](https://github.com/yudonlee/TIL/blob/main/iOS/2021_08_10%7E11.md "2021/08/10 ~ 08/11")
+- [2021/08/18/~ 08/23/ TableView, TableView Cell, DataSource, Delegate, reusing for view, storyboard segue, handling json data ](https://github.com/yudonlee/TIL/blob/main/iOS/2021_08_18%7E23.md "2021/08/18 ~ 08/23")
+- [2021/08/24/~ 08/28/ developing WeatherToday application](https://github.com/yudonlee/TIL/blob/main/iOS/2021_08_24%7E28_WeatherTodayApp.md "2021/08/24 ~ 08/28 weatherToday application")
