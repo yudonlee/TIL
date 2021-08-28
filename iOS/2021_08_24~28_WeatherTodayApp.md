@@ -10,7 +10,7 @@
 <img src="https://github.com/yudonlee/TIL/blob/main/iOS/pictures/ViewController.png" width="300" height="300">
 
 <img src="https://github.com/yudonlee/TIL/blob/main/iOS/pictures/CityListViewController.png" width="300" height="300">
-<img src="https://github.com/yudonlee/TIL/blob/main/iOS/pictures/DetailedViewController.png" width="300" height="300">
+<img src="https://github.com/yudonlee/TIL/blob/main/iOS/pictures/DetailedWeatherViewController.png" width="300" height="300">
 
 # 전체적인 구현 모식도
 
@@ -102,8 +102,20 @@ next 뷰 컨트롤러에 값을 전달할 떄 필요한 정보가 cell내부 lab
 - Double로 저장된 값을, string으로 전달할 때 소수 첫번째 자리까지 만 전달하기  
   String formatter를 활용하여 소수점을 원하는대로 truncate 할수 있다.
   ```swift
-  // 결과 예시: "섭씨 12.6도 / 화씨 54.7도 var temperature: String { let celsius: Int = 12.6 let fahrenheit: Int = 54.7 return "섭씨 \(String(format: "%.1f", celsius)) 도 / 화씨 \(String(format: "%.1f", fahrenheit))도" }
+  // 결과 예시: "섭씨 12.6도 / 화씨 54.7도
+  var temperature: String { let celsius: Int = 12.6 let fahrenheit: Int = 54.7 return "섭씨 \(String(format: "%.1f", celsius)) 도 / 화씨 \(String(format: "%.1f", fahrenheit))도" }
   ```
+
+## City Json file 예시
+
+```json
+{
+  "city_name": "오사카",
+  "state": 10,
+  "celsius": 25.7,
+  "rainfall_probability": 80
+}
+```
 
 # 3. DetailedWeatherViewController
 
