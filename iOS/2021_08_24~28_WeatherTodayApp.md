@@ -132,6 +132,9 @@ next 뷰 컨트롤러에 값을 전달할 떄 필요한 정보가 cell내부 lab
 - 해당 익셉션으로 인하여, breakpoint도 주었지만 정상적으로 데이터들이 입력되는 상황에서 dequeueReusableCell method에서 원인을 찾을 수 없었다.
 - 구글링 과정을 거치면서, 해당 문제는 흔히 outlet을 연결하지 않거나 잘못한 상황이라는 점을 알게 되었고 재지정하는 것을 통해서 해결했다.
 
-### 출처
+# 출처
 
 https://becodable.com/this-class-is-not-key-value-coding-compliant-for-the-key/
+
+https://www.boostcourse.org/mo326/joinLectures/12966  
+https://developer.apple.com/documentation/
