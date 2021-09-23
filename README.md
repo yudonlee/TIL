@@ -38,3 +38,4 @@
 - [2021/09/02/~ 09/05/ making photo album](https://github.com/yudonlee/TIL/blob/main/iOS/2021_09_02%7E09_05.md "TIL for 09/02 ~ 09/05")
 - [2021/09/14 learning for UIAlertController, UIAlerAction](https://github.com/yudonlee/TIL/blob/main/iOS/2021_09_14.md "TIL for 09/14")
 - [2021/09/15 learning for Tabbar, URLSession](https://github.com/yudonlee/TIL/blob/main/iOS/2021_09_15.md "TIL for 09/15")
+- [2021/09/23 learning for GCD, Notification](https://github.com/yudonlee/TIL/blob/main/iOS/2021_09_23.md "TIL for 09/23")
