@@ -26,7 +26,7 @@ sh compile.sh
 
 # 1. Result for 5 method
 
-<img src="https://github.com/yudonlee/TIL/blob/main/test/Image/zbrak.png" width="1000" height="400">
+<img src="https://github.com/yudonlee/TIL/blob/main/test/Image/zbrak.png" width="1000" height="200">
         
 zbark 함수 결과
 
@@ -68,6 +68,8 @@ python matplotlib로 그린 그래프의 값들과 Newton with bracketing에서 
 
 ## Problem1
 
+f(x) = 10 _ exp(-x) _ sin(2 _ M_PI _ x)-2
+scope : [0.1, 1.0]
 <img src="https://github.com/yudonlee/TIL/blob/main/test/Image/Problem1Graph.png" width="1000" height="400">
 <그래프>
 <img src="https://github.com/yudonlee/TIL/blob/main/test/Image/Problem1.png" width="1000" height="400">
@@ -76,6 +78,8 @@ python matplotlib로 그린 그래프의 값들과 Newton with bracketing에서 
 
 ## Problem2
 
+f(x) = pow(x, 2) - 2 _ x _ exp(-1 * x) + exp(-2*x)
+scope : [0.0, 1.0]
 <img src="https://github.com/yudonlee/TIL/blob/main/test/Image/Problem2Graph.png" width="1000" height="400">
 <그래프>
 <img src="https://github.com/yudonlee/TIL/blob/main/test/Image/Problem2.png" width="1000" height="400">
@@ -84,6 +88,8 @@ python matplotlib로 그린 그래프의 값들과 Newton with bracketing에서 
 
 ## Problem3
 
+f(x) = cos(x + sqrt(2)) + x\*(x/2 + sqrt(2))
+scope : [0.0, 1.0]
 <img src="https://github.com/yudonlee/TIL/blob/main/test/Image/Problem3Graph.png" width="1000" height="400">
 <그래프>
 <img src="https://github.com/yudonlee/TIL/blob/main/test/Image/Problem3.png" width="1000" height="400">
@@ -92,6 +98,8 @@ python matplotlib로 그린 그래프의 값들과 Newton with bracketing에서 
 
 ## Problem4
 
+f(x) = sin(x)
+scope : [0.1, 6]
 <img src="https://github.com/yudonlee/TIL/blob/main/test/Image/Problem4Graph.png" width="1000" height="400">
 <그래프>
 <img src="https://github.com/yudonlee/TIL/blob/main/test/Image/Problem4.png" width="1000" height="400">
