@@ -26,29 +26,29 @@ sh compile.sh
 
 # 1. Result for 5 method
 
-<img src="https://github.com/yudonlee/TIL/blob/main/test/Image/zbrak.png" width="500" height="400">
+<img src="https://github.com/yudonlee/TIL/blob/main/test/Image/zbrak.png" width="1000" height="400">
         
 zbark 함수 결과
 
 ## Bisection
 
-<img src="https://github.com/yudonlee/TIL/blob/main/test/Image/Bisection" width="500" height="400">
+<img src="https://github.com/yudonlee/TIL/blob/main/test/Image/Bisection.png" width="1000" height="400">
 
 ## Linear interpolation
 
-<img src="https://github.com/yudonlee/TIL/blob/main/test/Image/LinearInterpolation.png" width="500" height="400">
+<img src="https://github.com/yudonlee/TIL/blob/main/test/Image/LinearInterpolation.png" width="1000" height="400">
 
 ## Secant
 
-<img src="https://github.com/yudonlee/TIL/blob/main/test/Image/Secant.png" width="500" height="400">
+<img src="https://github.com/yudonlee/TIL/blob/main/test/Image/Secant.png" width="1000" height="400">
 
 ## Newton-Raphson
 
-<img src="https://github.com/yudonlee/TIL/blob/main/test/Image/NewtonRaphson.png" width="500" height="400">
+<img src="https://github.com/yudonlee/TIL/blob/main/test/Image/NewtonRaphson.png" width="1000" height="400">
 
 ## Newton with bracketing
 
-<img src="https://github.com/yudonlee/TIL/blob/main/test/Image/NewtonWithBracketing.png" width="500" height="400">
+<img src="https://github.com/yudonlee/TIL/blob/main/test/Image/NewtonWithBracketing.png" width="1000" height="400">
 
 # 2. Muller method
 
@@ -58,7 +58,7 @@ MullerMethod는 muller.cpp 파일에 구현하였습니다. 이때 Muller method
 
 ## 결과값
 
-<img src="https://github.com/yudonlee/TIL/blob/main/test/Image/MullerMethod.png" width="500" height="400">
+<img src="https://github.com/yudonlee/TIL/blob/main/test/Image/MullerMethod.png" width="1000" height="400">
 
 bejessj0에 대한 muller method의 결과값입니다.
 
@@ -68,32 +68,32 @@ python matplotlib로 그린 그래프의 값들과 Newton with bracketing에서 
 
 ## Problem1
 
-<img src="https://github.com/yudonlee/TIL/blob/main/test/Image/Problem1Graph.png" width="500" height="400">
+<img src="https://github.com/yudonlee/TIL/blob/main/test/Image/Problem1Graph.png" width="1000" height="400">
 <그래프>
-<img src="https://github.com/yudonlee/TIL/blob/main/test/Image/Problem1.png" width="500" height="400">
+<img src="https://github.com/yudonlee/TIL/blob/main/test/Image/Problem1.png" width="1000" height="400">
 <rtsafe()의 결과>
 그래프에서의 값과 함수값의 결과가 근사합니다.
 
 ## Problem2
 
-<img src="https://github.com/yudonlee/TIL/blob/main/test/Image/Problem2Graph.png" width="500" height="400">
+<img src="https://github.com/yudonlee/TIL/blob/main/test/Image/Problem2Graph.png" width="1000" height="400">
 <그래프>
-<img src="https://github.com/yudonlee/TIL/blob/main/test/Image/Problem2.png" width="500" height="400">
+<img src="https://github.com/yudonlee/TIL/blob/main/test/Image/Problem2.png" width="1000" height="400">
 <rtsafe()의 결과>
 해당 함수의 경우 중근이 존재하지만 rtsafe() method로 계산하는 것이 불가능했습니다.
 
 ## Problem3
 
-<img src="https://github.com/yudonlee/TIL/blob/main/test/Image/Problem3Graph.png" width="500" height="400">
+<img src="https://github.com/yudonlee/TIL/blob/main/test/Image/Problem3Graph.png" width="1000" height="400">
 <그래프>
-<img src="https://github.com/yudonlee/TIL/blob/main/test/Image/Problem3.png" width="500" height="400">
+<img src="https://github.com/yudonlee/TIL/blob/main/test/Image/Problem3.png" width="1000" height="400">
 <rtsafe()의 결과>
 해당 함수의 경우 실제로 하나의 근이 존재하지만 rtsafe() method로 계산하는 것이 불가능했습니다.
 
 ## Problem4
 
-<img src="https://github.com/yudonlee/TIL/blob/main/test/Image/Problem4Graph.png" width="500" height="400">
+<img src="https://github.com/yudonlee/TIL/blob/main/test/Image/Problem4Graph.png" width="1000" height="400">
 <그래프>
-<img src="https://github.com/yudonlee/TIL/blob/main/test/Image/Problem4.png" width="500" height="400">
+<img src="https://github.com/yudonlee/TIL/blob/main/test/Image/Problem4.png" width="1000" height="400">
 <rtsafe()의 결과>
 sin함수는 [0.1, 6]의 범위에서는 pi값이 나와야하고 해당 값과 근사한 값이 출력되는 것을 확인했습니다.
