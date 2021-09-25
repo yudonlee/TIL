@@ -12,17 +12,23 @@
 ## 컴파일 옵션
 
 ```
-g++ -o main main.cpp problem1.cpp problem2.cpp problem3.cpp problem4.cpp bessj0.cpp bessj1.cpp zbrak.cpp rtbis.cpp rtflsp.cpp rtnewt.cpp rtsafe.cpp rtsec.cpp muller.cpp
+// now in homework3/
+mkdir build
+cd build
+// now in homework3/build
+cmake ..
+make
 ```
+
+root directory인 homework3/CmakeList.txt를 통해서 만들어진 Makefile로 컴파일합니다.
+실제 여기서 구현한 파일은 root directory인 homework3의 main.cpp, muller.cpp, func_problem.h 입니다.
 
 ## 실행방법
 
 ```
-sh compile.sh
+// now in homework3/build3
+./main
 ```
-
-해당 명령어를 통해서 컴파일되어 만들어진 main.exe 실행파일을 통해서 실행합니다.
-실제 구현파일은 main.cpp, muller.cpp, func_problem.h입니다.
 
 # 1. Result for 5 method
 
