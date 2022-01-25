@@ -129,6 +129,19 @@ next 뷰 컨트롤러에 값을 전달할 떄 필요한 정보가 cell내부 lab
 - 해당 익셉션으로 인하여, breakpoint도 주었지만 정상적으로 데이터들이 입력되는 상황에서 dequeueReusableCell method에서 원인을 찾을 수 없었다.
 - 구글링 과정을 거치면서, 해당 문제는 흔히 outlet을 연결하지 않거나 잘못한 상황이라는 점을 알게 되었고 재지정하는 것을 통해서 해결했다.
 
+## 2. CustomCell에 불필요한 프로퍼티 할당
+
+다음 뷰 컨트롤러로 City structure의 데이터를 넘겨야 하는 상횡에서, cell을 클릭할때 그에 해당하는 city의 값을 cities로부터 가져오지 못하였다.
+
+### 임시 해결책
+
+customCell내부에 해당 구조체 값들을 저장하기 위한 프로퍼티를 정의하고, prepare()에서 sender를 Cell로 다운캐스팅하여 다음 뷰 컨트롤러에 필요한값을 전달하는 2번의 복사 구조를 사용했다.
+
+### indexPathForSelectedRow 사용
+
+셀의 데이터를 넘겨야 하는 상황에서, 해당 뷰 컨트롤러의 변수로 지정된 array에서 indexPath를 통해 가져오면 되는 문제였다.  
+indexPathForselectedRow 인스턴스 프로퍼티를 이용해서 현재 클릭한 셀의 tableView indexPath를 가져왔고, 이를 배열에 index로 활용하여 해당 값을 가져오는데 성공했다.
+
 # 출처
 
 https://becodable.com/this-class-is-not-key-value-coding-compliant-for-the-key/
