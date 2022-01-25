@@ -7,7 +7,7 @@
 
 # 구현예시
 
-![](./pictures/weatherApp.gif)
+![](https://github.com/yudonlee/TIL/blob/main/iOS/pictures/weatherApp.gif)
 
 # 전체적인 구현 모식도
 
