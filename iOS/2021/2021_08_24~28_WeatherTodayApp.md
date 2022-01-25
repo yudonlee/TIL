@@ -7,10 +7,7 @@
 
 # 구현예시
 
-<img src="https://github.com/yudonlee/TIL/blob/main/iOS/pictures/ViewController.png" width="300" height="300">
-
-<img src="https://github.com/yudonlee/TIL/blob/main/iOS/pictures/CityListViewController.png" width="300" height="300">
-<img src="https://github.com/yudonlee/TIL/blob/main/iOS/pictures/DetailedWeatherViewController.png" width="300" height="300">
+![](./pictures/weatherApp.gif)
 
 # 전체적인 구현 모식도
 
